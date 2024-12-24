@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>绝区零游戏故事线界面</title>
+    <link rel="stylesheet/less" type="text/css" href="style.less" />
+    <script src="../common/scripts/less.min.js"></script>
+</head>
+
+<body>
+    <div style="height: 100vh;display: flex;flex-direction: column;">
+        <div class="header"></div>
+        <div class="body">
+            <div class="curtain"></div>
+            <div class="timeline-container">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-head">
+                            <div class="label">章节</div>
+                            <div class="title">【序章】</div>
+                        </div>
+                        <div class="timeline-body item-0 item-COMPLETED">
+                            文字/委托/功能点
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-head">
+                            <div class="label">委托</div>
+                            <div class="title">兔与绳</div>
+                        </div>
+                        <div class="timeline-body item-1 item-COMPLETED">
+                            <div class="cover"></div>
+                            <div class="label">
+                                <span>主线</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-head">
+                            <div class="label">功能点</div>
+                            <div class="title">绳网</div>
+                        </div>
+                        <div class="timeline-body item-2">
+                            <div class="frame">
+                                <div class="cover"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="tabs" style="width: 80%;">
+                <div class="tab-nav-btn">&lt;</div>
+                <div class="tab-content-container">
+                    <ul class="tab-list">
+                        <li>第一章</li>
+                        <li>第二章</li>
+                        <li class="is-active">第三章</li>
+                        <li>第三章</li>
+                        <li>第三章</li>
+                        <li>第三章</li>
+                        <li>第三章</li>
+                    </ul>
+                </div>
+                <div class="tab-nav-btn">&gt;</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
